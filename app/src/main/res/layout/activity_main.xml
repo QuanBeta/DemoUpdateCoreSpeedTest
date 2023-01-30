@@ -48,4 +48,24 @@
         app:layout_constraintEnd_toEndOf="@+id/tvUpload"
         app:layout_constraintStart_toStartOf="@+id/tvPing"
         app:layout_constraintTop_toBottomOf="@+id/tvDownload" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Download"
+        app:layout_constraintEnd_toEndOf="@+id/tvUpload"
+        app:layout_constraintStart_toStartOf="@+id/tvPing"
+        app:layout_constraintTop_toBottomOf="@+id/btnStart" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Upload"
+        app:layout_constraintEnd_toEndOf="@+id/tvUpload"
+        app:layout_constraintStart_toStartOf="@+id/tvPing"
+        app:layout_constraintTop_toBottomOf="@+id/btnDownload" />
 </androidx.constraintlayout.widget.ConstraintLayout>
